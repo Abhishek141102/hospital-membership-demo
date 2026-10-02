@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="CarePlus Hospital Membership demo" />
+    <title>CarePlus — Hospital Membership</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%230d766e%22/%3E%3Cpath d=%22M27 12h10v15h15v10H37v15H27V37H12V27h15z%22 fill=%22white%22/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      <span class="dot"></span> Memberships are now open — explore Bronze,
+      Silver &amp; Gold plans <a href="#plans">View plans →</a>
+    </div>
+    <header class="header" id="header">
+      <div class="container nav">
+        <a class="brand" href="#home"
+          ><span class="brand-icon"><i data-lucide="plus" aria-hidden="true"></i></span><span><b>Care</b>Plus</span></a
+        ><button class="menu" aria-label="Menu" aria-expanded="false">
+          <i></i><i></i><i></i>
+        </button>
+        <nav class="nav-links">
+          <a href="#home">Home</a><a href="#why">Why membership</a
+          ><a href="#plans">Plans</a><a href="#benefits">Benefits</a
+          ><a href="#how">How it works</a><a href="#faq">FAQ</a>
+        </nav>
+        <a class="btn btn-sm btn-dark nav-cta" href="#plans">Get membership</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span>●</span> A smarter way to care for your health
+            </div>
+            <h1>Healthcare that cares.<br /><em>Membership that saves.</em></h1>
+            <p>
+              One simple annual membership for meaningful healthcare benefits,
+              preventive checkups and exclusive savings — designed around you
+              and your family.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#plans"
+                >Explore plans <span>→</span></a
+              ><a class="text-link" href="#how"
+                >See how it works <span>↗</span></a
+              >
+            </div>
+            <div class="trust-row">
+              <div class="avatars">
+                <span>AS</span><span>RK</span><span>PM</span><span>+</span>
+              </div>
+              <div>
+                <strong>10,000+</strong><small>members cared for</small>
+              </div>
+              <div class="trust-line"></div>
+              <div class="rating">
+                <b>4.9</b><span>★★★★★</span><small>member experience</small>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual reveal delay-1">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="hero-card main-card">
+              <div class="card-top">
+                <span>CAREPLUS</span><span class="live"><i></i> ACTIVE</span>
+              </div>
+              <div class="card-title">Gold<br /><span>Membership</span></div>
+              <div class="card-number">HM • 2026 • 00125</div>
+              <div class="card-bottom">
+                <span>John Doe</span><span>VALID 10/27</span>
+              </div>
+              <div class="qr">
+                <span></span><span></span><span></span><span></span><span></span
+                ><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="float-card savings">
+              <span class="float-icon">↘</span>
+              <div><small>Member savings</small><strong>₹8,450</strong></div>
+            </div>
+            <div class="float-card check">
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Health checkup</strong
+                ><small>2 benefits remaining</small>
+              </div>
+            </div>
+            <div class="hero-glow"></div>
+          </div>
+        </div>
+        <div class="container hero-stats">
+          <div><b>4.8M+</b><span>health services delivered</span></div>
+          <div><b>25+</b><span>years of trusted care</span></div>
+          <div><b>98%</b><span>member satisfaction</span></div>
+          <div><b>24/7</b><span>care support</span></div>
+        </div>
+      </section>
+
+      <section class="section soft" id="why">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="eyebrow">WHY MEMBERSHIP</span>
+            <h2>
+              More than healthcare.<br /><em>It’s your health membership.</em>
+            </h2>
+            <p>
+              A simple way to make preventive care more accessible while
+              enjoying exclusive member savings.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature reveal">
+              <span class="feature-icon"><i data-lucide="wallet" aria-hidden="true"></i></span>
+              <h3>Affordable care</h3>
+              <p>
+                Get access to eligible services at special member rates
+                throughout your membership.
+              </p>
+              <a href="#plans">Explore benefits <b>→</b></a>
+            </article>
+            <article class="feature reveal delay-1">
+              <span class="feature-icon"><i data-lucide="heart-pulse" aria-hidden="true"></i></span>
+              <h3>Preventive focus</h3>
+              <p>
+                Stay ahead with health checkups and wellness programs built into
+                your membership.
+              </p>
+              <a href="#benefits">See benefits <b>→</b></a>
+            </article>
+            <article class="feature reveal delay-2">
+              <span class="feature-icon"><i data-lucide="circle-percent" aria-hidden="true"></i></span>
+              <h3>Exclusive savings</h3>
+              <p>
+                Save on selected diagnostics, pharmacy services and other
+                eligible healthcare needs.
+              </p>
+              <a href="#calculator">Calculate savings <b>→</b></a>
+            </article>
+            <article class="feature reveal delay-3">
+              <span class="feature-icon"><i data-lucide="heart" aria-hidden="true"></i></span>
+              <h3>One simple membership</h3>
+              <p>
+                One membership ID, clear benefits and an easier healthcare
+                journey for your family.
+              </p>
+              <a href="#how">How it works <b>→</b></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section plans" id="plans">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">MEMBERSHIP PLANS</span>
+            <h2>Choose care that fits <em>your life.</em></h2>
+            <p>
+              Flexible annual plans with clearly defined benefits.
+              <small>Demo pricing shown for presentation purposes.</small>
+            </p>
+          </div>
+          <div class="plan-grid">
+            <article class="plan reveal">
+              <div class="plan-head">
+                <span class="plan-badge bronze">BRONZE</span
+                ><span class="plan-note">Essential</span>
+              </div>
+              <div class="price">₹2,999 <small>/ year</small></div>
+              <p class="plan-desc">
+                A practical start for everyday preventive healthcare.
+              </p>
+              <ul>
+                <li>1 annual health checkup</li>
+                <li>General consultation benefits</li>
+                <li>5% diagnostic discount</li>
+                <li>3% pharmacy discount</li>
+                <li>Health camp access</li>
+              </ul>
+              <button class="btn btn-outline choose" data-plan="Bronze">
+                Choose Bronze <span>→</span>
+              </button>
+            </article>
+            <article class="plan featured reveal delay-1">
+              <div class="popular">MOST POPULAR</div>
+              <div class="plan-head">
+                <span class="plan-badge silver">SILVER</span
+                ><span class="plan-note">Balanced</span>
+              </div>
+              <div class="price">₹4,999 <small>/ year</small></div>
+              <p class="plan-desc">
+                More preventive care and better savings for active families.
+              </p>
+              <ul>
+                <li>2 annual health checkups</li>
+                <li>General consultation benefits</li>
+                <li>10% diagnostic discount</li>
+                <li>5% pharmacy discount</li>
+                <li>Health camp access</li>
+                <li>Wellness program access</li>
+              </ul>
+              <button class="btn btn-primary choose" data-plan="Silver">
+                Choose Silver <span>→</span>
+              </button>
+            </article>
+            <article class="plan gold reveal delay-2">
+              <div class="plan-head">
+                <span class="plan-badge gold">GOLD</span
+                ><span class="plan-note">Complete</span>
+              </div>
+              <div class="price">₹7,999 <small>/ year</small></div>
+              <p class="plan-desc">
+                Our most comprehensive membership for proactive care.
+              </p>
+              <ul>
+                <li>4 annual health checkups</li>
+                <li>Priority member support</li>
+                <li>20% diagnostic discount</li>
+                <li>10% pharmacy discount</li>
+                <li>Health camp access</li>
+                <li>Wellness programs</li>
+                <li>Selected family benefits</li>
+              </ul>
+              <button class="btn btn-dark choose" data-plan="Gold">
+                Choose Gold <span>→</span>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section compare soft">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="eyebrow">PLAN COMPARISON</span>
+            <h2>Everything clear at a <em>glance.</em></h2>
+            <p>See how membership benefits change across plans.</p>
+          </div>
+          <div class="table-wrap reveal">
+            <table>
+              <thead>
+                <tr>
+                  <th>Membership benefits</th>
+                  <th>Bronze</th>
+                  <th>Silver</th>
+                  <th class="gold-col">Gold</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>General consultation</td>
+                  <td>✓</td>
+                  <td>✓</td>
+                  <td>✓</td>
+                </tr>
+                <tr>
+                  <td>Annual health checkups</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>Diagnostic discount</td>
+                  <td>5%</td>
+                  <td>10%</td>
+                  <td>20%</td>
+                </tr>
+                <tr>
+                  <td>Pharmacy discount</td>
+                  <td>3%</td>
+                  <td>5%</td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td>Health camp access</td>
+                  <td>✓</td>
+                  <td>✓</td>
+                  <td>✓</td>
+                </tr>
+                <tr>
+                  <td>Wellness programs</td>
+                  <td>—</td>
+                  <td>✓</td>
+                  <td>✓</td>
+                </tr>
+                <tr>
+                  <td>Family benefits</td>
+                  <td>—</td>
+                  <td>—</td>
+                  <td>✓</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="benefits">
+        <div class="container">
+          <div class="split-head">
+            <div class="section-head reveal">
+              <span class="eyebrow">MEMBERSHIP BENEFITS</span>
+              <h2>Designed around <em>better health.</em></h2>
+            </div>
+            <p class="reveal">
+              From preventive checkups to everyday savings, your membership
+              helps you get more value from the care you already need.
+            </p>
+          </div>
+          <div class="benefit-grid">
+            <article class="benefit-card reveal">
+              <span>01</span>
+              <div class="mini-icon"><i data-lucide="heart-pulse" aria-hidden="true"></i></div>
+              <h3>Health checkups</h3>
+              <p>
+                Build a regular preventive care routine with annual checkup
+                benefits included in your plan.
+              </p>
+            </article>
+            <article class="benefit-card reveal">
+              <span>02</span>
+              <div class="mini-icon"><i data-lucide="activity" aria-hidden="true"></i></div>
+              <h3>Diagnostic savings</h3>
+              <p>
+                Enjoy special member discounts on eligible laboratory and
+                diagnostic services.
+              </p>
+            </article>
+            <article class="benefit-card reveal delay-1">
+              <span>03</span>
+              <div class="mini-icon"><i data-lucide="pill" aria-hidden="true"></i></div>
+              <h3>Pharmacy benefits</h3>
+              <p>
+                Save more on eligible pharmacy purchases under your membership
+                plan.
+              </p>
+            </article>
+            <article class="benefit-card reveal">
+              <span>04</span>
+              <div class="mini-icon"><i data-lucide="leaf" aria-hidden="true"></i></div>
+              <h3>Wellness programs</h3>
+              <p>
+                Take part in health awareness and wellness initiatives
+                throughout the year.
+              </p>
+            </article>
+            <article class="benefit-card reveal delay-1">
+              <span>05</span>
+              <div class="mini-icon"><i data-lucide="users-round" aria-hidden="true"></i></div>
+              <h3>Family options</h3>
+              <p>
+                Selected plans can extend healthcare benefits to eligible family
+                members.
+              </p>
+            </article>
+            <article class="benefit-card reveal">
+              <span>06</span>
+              <div class="mini-icon"><i data-lucide="calendar-check" aria-hidden="true"></i></div>
+              <h3>Appointment support</h3>
+              <p>
+                Get help arranging appointments and planning your hospital visits.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section how soft" id="how">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="eyebrow">HOW IT WORKS</span>
+            <h2>Four simple steps to <em>better care.</em></h2>
+          </div>
+          <div class="steps">
+            <div class="step reveal">
+              <span>01</span>
+              <div class="step-icon"><i data-lucide="clipboard-check" aria-hidden="true"></i></div>
+              <h3>Choose your plan</h3>
+              <p>Compare Bronze, Silver and Gold to find the right fit.</p>
+            </div>
+            <div class="step reveal delay-1">
+              <span>02</span>
+              <div class="step-icon"><i data-lucide="credit-card" aria-hidden="true"></i></div>
+              <h3>Activate membership</h3>
+              <p>Complete your membership and receive a unique member ID.</p>
+            </div>
+            <div class="step reveal delay-2">
+              <span>03</span>
+              <div class="step-icon"><i data-lucide="badge-check" aria-hidden="true"></i></div>
+              <h3>Use your benefits</h3>
+              <p>Present your membership when you use eligible services.</p>
+            </div>
+            <div class="step reveal delay-3">
+              <span>04</span>
+              <div class="step-icon"><i data-lucide="heart-pulse" aria-hidden="true"></i></div>
+              <h3>Save &amp; stay healthy</h3>
+              <p>Enjoy your benefits, track usage and renew when needed.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section membership-demo">
+        <div class="container demo-grid">
+          <div class="demo-copy reveal">
+            <span class="eyebrow">A DIGITAL MEMBERSHIP EXPERIENCE</span>
+            <h2>Your membership.<br /><em>Always within reach.</em></h2>
+            <p>
+              In a full system, members can carry a secure digital membership
+              card and use their unique ID to verify eligible benefits at the
+              hospital.
+            </p>
+            <div class="demo-points">
+              <span>✓ Unique membership ID</span
+              ><span>✓ Benefit verification</span><span>✓ Usage tracking</span
+              ><span>✓ Digital receipt history</span>
+            </div>
+            <button class="btn btn-dark" id="cardDemo">
+              Preview membership card →
+            </button>
+          </div>
+          <div class="member-card-wrap reveal delay-1">
+            <div class="member-card">
+              <div class="mc-top"><span>CAREPLUS</span><span>GOLD</span></div>
+              <div class="mc-title">HEALTH<br /><b>MEMBERSHIP</b></div>
+              <div class="mc-id">HM-2026-00125</div>
+              <div class="mc-name">John Doe</div>
+              <div class="mc-foot">
+                <span>VALID UNTIL<br /><b>25 OCT 2027</b></span
+                ><span class="qr-grid">▦</span>
+              </div>
+            </div>
+            <div class="secure">⌁ Secure digital identity</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section usage soft">
+        <div class="container usage-grid">
+          <div class="section-head reveal">
+            <span class="eyebrow">BENEFIT TRACKING</span>
+            <h2>Know what you've used.<br /><em>Know what's left.</em></h2>
+            <p>
+              A future member dashboard can make benefit utilization transparent
+              and easy to understand.
+            </p>
+          </div>
+          <div class="usage-panel reveal delay-1">
+            <div class="usage-top">
+              <div>
+                <small>ACTIVE MEMBERSHIP</small><strong>Gold Plan</strong>
+              </div>
+              <span class="status">● Active</span>
+            </div>
+            <div class="usage-row">
+              <div class="usage-label">
+                <span>Health checkups</span><b>2 / 4 used</b>
+              </div>
+              <div class="progress"><i style="width: 50%"></i></div>
+            </div>
+            <div class="usage-row">
+              <div class="usage-label">
+                <span>Diagnostic discount</span><b>20% available</b>
+              </div>
+              <div class="progress"><i style="width: 80%"></i></div>
+            </div>
+            <div class="usage-row">
+              <div class="usage-label">
+                <span>Pharmacy discount</span><b>10% available</b>
+              </div>
+              <div class="progress"><i style="width: 65%"></i></div>
+            </div>
+            <div class="usage-foot">
+              <span>Membership valid until <b>25 Oct 2027</b></span
+              ><a href="#plans">Renew →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section camps">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">HEALTH PROGRAMS</span>
+            <h2>Care beyond the <em>membership card.</em></h2>
+            <p>
+              Showcase health camps, wellness drives and member-focused
+              initiatives on the platform.
+            </p>
+          </div>
+          <div class="camp-grid">
+            <article class="camp reveal">
+              <div class="camp-date">
+                <b>12</b><span>OCT<br />2026</span>
+              </div>
+              <div>
+                <span class="tag">SCREENING</span>
+                <h3>Diabetes Health Camp</h3>
+                <p>Preventive screening and health education for members.</p>
+                <a href="#contact">View program →</a>
+              </div>
+            </article>
+            <article class="camp reveal delay-1">
+              <div class="camp-date">
+                <b>20</b><span>OCT<br />2026</span>
+              </div>
+              <div>
+                <span class="tag">WELLNESS</span>
+                <h3>Heart Health Camp</h3>
+                <p>Awareness, screening and practical heart-health guidance.</p>
+                <a href="#contact">View program →</a>
+              </div>
+            </article>
+            <article class="camp reveal delay-2">
+              <div class="camp-date">
+                <b>28</b><span>OCT<br />2026</span>
+              </div>
+              <div>
+                <span class="tag">WOMEN'S HEALTH</span>
+                <h3>Women's Wellness Day</h3>
+                <p>A dedicated wellness initiative for preventive care.</p>
+                <a href="#contact">View program →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section calculator soft" id="calculator">
+        <div class="container calc-grid">
+          <div class="calc-copy reveal">
+            <span class="eyebrow">INTERACTIVE DEMO</span>
+            <h2>See the value of <em>membership.</em></h2>
+            <p>
+              Use this illustrative calculator to show how eligible member
+              discounts could translate into annual savings.
+            </p>
+            <small
+              >*Demo estimate only. Actual savings depend on hospital services,
+              plan terms and usage.</small
+            >
+          </div>
+          <div class="calc-box reveal delay-1">
+            <label
+              >Membership plan<select id="calcPlan">
+                <option value="2999">Bronze — ₹2,999</option>
+                <option value="4999">Silver — ₹4,999</option>
+                <option value="7999" selected>Gold — ₹7,999</option>
+              </select></label
+            ><label
+              >Estimated eligible healthcare spend<input
+                id="spend"
+                type="number"
+                value="25000"
+                min="0"
+                step="500"
+            /></label>
+            <div class="range-row">
+              <span>Discount assumption</span><b id="rateLabel">14%</b>
+            </div>
+            <input
+              id="rate"
+              class="range"
+              type="range"
+              min="5"
+              max="20"
+              value="14"
+            />
+            <div class="calc-result">
+              <span>Illustrative annual savings</span
+              ><strong id="saving">₹3,500</strong
+              ><small>Estimated benefit value before membership fee</small>
+            </div>
+            <button class="btn btn-dark full" id="calcBtn">
+              Calculate savings ↗
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="eyebrow">MEMBER EXPERIENCE</span>
+            <h2>Care people can <em>feel.</em></h2>
+          </div>
+          <div class="quote-wrap reveal">
+            <button class="slider-btn prev" aria-label="Previous">←</button>
+            <div class="quote-slide">
+              <div class="quote-mark">“</div>
+              <p id="quote">
+                The membership makes regular healthcare feel simpler and more
+                affordable. Everything is clear and easy to understand.
+              </p>
+              <div class="person">
+                <span class="person-avatar" id="avatar">AS</span>
+                <div>
+                  <b id="personName">Ananya Shah</b
+                  ><small id="personMeta">Gold Member · Mumbai</small>
+                </div>
+              </div>
+            </div>
+            <button class="slider-btn next" aria-label="Next">→</button>
+          </div>
+          <div class="dots" id="dots">
+            <button class="active"></button><button></button><button></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq soft" id="faq">
+        <div class="container faq-grid">
+          <div class="section-head reveal">
+            <span class="eyebrow">FAQ</span>
+            <h2>Questions, made <em>simple.</em></h2>
+            <p>
+              Common questions a prospective member may have before choosing a
+              plan.
+            </p>
+            <a class="text-link" href="#contact"
+              >Still have a question? <span>→</span></a
+            >
+          </div>
+          <div class="accordion reveal delay-1">
+            <details open>
+              <summary>What is a hospital membership?</summary>
+              <p>
+                A hospital membership is an annual subscription that provides
+                defined healthcare benefits, discounts and eligible services
+                according to the selected plan.
+              </p>
+            </details>
+            <details>
+              <summary>How long is the membership valid?</summary>
+              <p>
+                The demo plans are shown as annual memberships. The hospital can
+                define the actual validity and renewal rules.
+              </p>
+            </details>
+            <details>
+              <summary>Can I upgrade my plan?</summary>
+              <p>
+                Yes. A future system can support plan upgrades or downgrades
+                according to hospital-defined terms.
+              </p>
+            </details>
+            <details>
+              <summary>Can family members be included?</summary>
+              <p>
+                Family benefits can be offered as an optional feature,
+                especially with premium plans such as Gold.
+              </p>
+            </details>
+            <details>
+              <summary>Are all hospital services covered?</summary>
+              <p>
+                No. Coverage and discounts should always be defined clearly by
+                the hospital for each membership plan.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="container cta-inner reveal">
+          <div>
+            <span class="eyebrow light">START YOUR HEALTH JOURNEY</span>
+            <h2>Your health deserves <em>more than a visit.</em></h2>
+            <p>
+              Explore a membership built around preventive care, convenience and
+              meaningful savings.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-white" href="#plans">Explore plans →</a
+            ><a class="btn btn-ghost" href="#contact-form">Talk to our team</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact-form">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <span class="eyebrow">GET IN TOUCH</span>
+            <h2>Let's make healthcare <em>more accessible.</em></h2>
+            <p>
+              This demo form represents the enquiry experience that can later
+              connect to the hospital's backend or CRM.
+            </p>
+            <div class="contact-items">
+              <div>
+                <span>☎</span>
+                <p><small>Call us</small><b>+91 1800 123 4567</b></p>
+              </div>
+              <div>
+                <span>✉</span>
+                <p><small>Email</small><b>membership@careplus.example</b></p>
+              </div>
+              <div>
+                <span><i data-lucide="map-pin" aria-hidden="true"></i></span>
+                <p><small>Visit us</small><b>CarePlus Hospital, Nashik</b></p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal delay-1" id="contactForm">
+            <div class="form-row">
+              <label
+                >Full name<input
+                  required
+                  name="name"
+                  placeholder="Your name" /></label
+              ><label
+                >Mobile number<input
+                  required
+                  name="phone"
+                  type="tel"
+                  placeholder="+91 98765 43210"
+              /></label>
+            </div>
+            <div class="form-row">
+              <label
+                >Email address<input
+                  required
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com" /></label
+              ><label
+                >Interested plan<select name="plan">
+                  <option>Bronze</option>
+                  <option>Silver</option>
+                  <option>Gold</option>
+                  <option>Not sure yet</option>
+                </select></label
+              >
+            </div>
+            <label
+              >Message<textarea
+                name="message"
+                rows="4"
+                placeholder="Tell us what you would like to know..."
+              ></textarea></label
+            ><button class="btn btn-dark" type="submit">
+              Send enquiry <span>→</span></button
+            ><small class="form-note"
+              >By submitting, you agree to be contacted about membership
+              information.</small
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-top">
+        <div>
+          <a class="brand footer-brand" href="#home"
+            ><span class="brand-icon"><i data-lucide="plus" aria-hidden="true"></i></span><span><b>Care</b>Plus</span></a
+          >
+          <p>
+            Premium healthcare membership designed around preventive care,
+            convenience and member value.
+          </p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <b>Explore</b><a href="#why">Why membership</a
+            ><a href="#plans">Plans</a><a href="#benefits">Benefits</a
+            ><a href="#how">How it works</a>
+          </div>
+          <div>
+            <b>Support</b><a href="#faq">FAQs</a
+            ><a href="#contact-form">Contact</a
+            ><a href="#calculator">Savings calculator</a
+            ><a href="#home">Membership guide</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 CarePlus Hospital. Demo website.</span
+        ><span>Privacy · Terms · Membership policy</span>
+      </div>
+    </footer>
+    <div class="modal" id="modal" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close" aria-label="Close">×</button
+        ><span class="eyebrow">MEMBERSHIP DEMO</span>
+        <h3 id="modalTitle">Gold Membership</h3>
+        <p id="modalText">
+          You selected the Gold plan. In the final system, this CTA can lead to
+          registration and secure payment.
+        </p>
+        <div class="selected-plan">
+          <span>Selected plan</span><b id="selectedPlan">Gold</b
+          ><strong id="selectedPrice">₹7,999 / year</strong>
+        </div>
+        <a href="#contact-form" class="btn btn-dark modal-contact"
+          >Request membership information →</a
+        >
+      </div>
+    </div>
+    <div class="toast" id="toast">
+      <span>✓</span>
+      <div>
+        <b>Thank you!</b
+        ><small>Your enquiry has been captured for this demo.</small>
+      </div>
+    </div>
+    <button class="top-btn" id="topBtn" aria-label="Back to top">↑</button>
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
